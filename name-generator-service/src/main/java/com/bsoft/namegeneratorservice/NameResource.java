@@ -11,9 +11,10 @@ import static strman.Strman.toKebabCase;
 class NameResource {
 
     @Autowired
-    private AnimalServiceClient animalServiceClient;
-    @Autowired
     private ScientistServiceClient scientistServiceClient;
+    @Autowired
+    private AnimalServiceClient animalServiceClient;
+
 
 
     @GetMapping(path = "/random")
