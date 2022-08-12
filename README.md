@@ -8,7 +8,7 @@ Make shure docker-setup.sh is executable
 ```
 
 # Usage
-After build which starts the necessary docker images, go to [jaeger-ui](localhost:9090) to view jaeger tracing. If no request are made nothing except error message will show.
+After build which starts the necessary docker images, go to [jaeger-ui](http://localhost:9090) to view jaeger tracing. If no request are made nothing except error message will show.
 
 Then [make some requests](http://localhost:8080/api/v1/names/random) to generate jaeger tracing data.
 
